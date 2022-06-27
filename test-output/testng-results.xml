@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-26T16:24:26 UYT" name="Default suite" finished-at="2022-06-26T16:24:31 UYT" duration-ms="5366">
+  <suite started-at="2022-06-27T20:10:19 UYT" name="Default suite" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3882">
     <groups>
     </groups>
-    <test started-at="2022-06-26T16:24:26 UYT" name="Default test" finished-at="2022-06-26T16:24:31 UYT" duration-ms="5366">
-      <class name="Edit.Demo.Practice">
-        <test-method is-config="true" signature="OpenPage()[pri:0, instance:Edit.Demo.Practice@59662a0b]" started-at="2022-06-26T16:24:17 UYT" name="OpenPage" finished-at="2022-06-26T16:24:26 UYT" duration-ms="8495" status="PASS">
+    <test started-at="2022-06-27T20:10:19 UYT" name="Default test" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3882">
+      <class name="pruebas.Practice5">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:pruebas.Practice5@1a482e36]" started-at="2022-06-27T20:10:08 UYT" name="abrirPagina" finished-at="2022-06-27T20:10:19 UYT" duration-ms="10387" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenPage -->
-        <test-method signature="BuscarPalabras()[pri:100, instance:Edit.Demo.Practice@59662a0b]" started-at="2022-06-26T16:24:26 UYT" name="BuscarPalabras" description="CP02 - Verificar la búsqueda de productos" finished-at="2022-06-26T16:24:31 UYT" duration-ms="5289" status="PASS">
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="Ingreso()[pri:0, instance:pruebas.Practice5@1a482e36]" started-at="2022-06-27T20:10:19 UYT" name="Ingreso" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BuscarPalabras -->
-        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:Edit.Demo.Practice@59662a0b]" started-at="2022-06-26T16:24:31 UYT" name="cerrarPagina" finished-at="2022-06-26T16:24:31 UYT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cerrarPagina -->
-      </class> <!-- Edit.Demo.Practice -->
+        </test-method> <!-- Ingreso -->
+      </class> <!-- pruebas.Practice5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
