@@ -28,5 +28,11 @@ public class Practice5 {
 		login.ingresoPassword("yjdl547");
 		login.clickBotonIn();
 	}
-
+	@Test
+	public void BuscarPalabra() {
+		PaginaInicio inicio = new PaginaInicio(driver);
+		inicio.buscar("Blouse");
+		inicio.clicBotonBuscar();
+		
+	}
 }
