@@ -5,8 +5,8 @@
     <classes>
       <class name="pruebas.Practice5">
         <methods>
+          <include name="BuscarPalabra"/>
           <include name="abrirPagina"/>
-          <include name="Ingreso"/>
         </methods>
       </class> <!-- pruebas.Practice5 -->
     </classes>

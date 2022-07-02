@@ -2,6 +2,7 @@ package pruebas;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -9,15 +10,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import paginas.PaginaInicio;
 import paginas.PaginaLogin;
 
-public class Practice5 {
+public class Practice6 {
 	String url="http://automationpractice.com";
 	WebDriver driver;
+	
 	@BeforeSuite
-	public void abrirPagina() {
+	public void OpenPage() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
+		
 	}
 	@Test
 	public void Ingreso() {
@@ -28,11 +31,10 @@ public class Practice5 {
 		login.ingresoPassword("yjdl547");
 		login.clickBotonIn();
 	}
-	@Test
-	public void BuscarPalabra() {
-		PaginaInicio inicio = new PaginaInicio(driver);
-		inicio.buscar("Blouse");
-		inicio.clicBotonBuscar();
-		
+	@AfterSuite
+	public void cerrarPagina() {
+		driver.close();
 	}
+	
+
 }

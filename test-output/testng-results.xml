@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-27T20:10:19 UYT" name="Default suite" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3882">
+  <suite started-at="2022-07-02T13:31:30 UYT" name="Default suite" finished-at="2022-07-02T13:31:54 UYT" duration-ms="23776">
     <groups>
     </groups>
-    <test started-at="2022-06-27T20:10:19 UYT" name="Default test" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3882">
-      <class name="pruebas.Practice5">
-        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:pruebas.Practice5@1a482e36]" started-at="2022-06-27T20:10:08 UYT" name="abrirPagina" finished-at="2022-06-27T20:10:19 UYT" duration-ms="10387" status="PASS">
+    <test started-at="2022-07-02T13:31:30 UYT" name="Default test" finished-at="2022-07-02T13:31:54 UYT" duration-ms="23776">
+      <class name="pruebas.Practice6">
+        <test-method is-config="true" signature="OpenPage()[pri:0, instance:pruebas.Practice6@6f1de4c7]" started-at="2022-07-02T13:31:17 UYT" name="OpenPage" finished-at="2022-07-02T13:31:30 UYT" duration-ms="12809" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abrirPagina -->
-        <test-method signature="Ingreso()[pri:0, instance:pruebas.Practice5@1a482e36]" started-at="2022-06-27T20:10:19 UYT" name="Ingreso" finished-at="2022-06-27T20:10:22 UYT" duration-ms="3824" status="PASS">
+        </test-method> <!-- OpenPage -->
+        <test-method signature="Ingreso()[pri:0, instance:pruebas.Practice6@6f1de4c7]" started-at="2022-07-02T13:31:30 UYT" name="Ingreso" finished-at="2022-07-02T13:31:54 UYT" duration-ms="23696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ingreso -->
-      </class> <!-- pruebas.Practice5 -->
+        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:pruebas.Practice6@6f1de4c7]" started-at="2022-07-02T13:31:54 UYT" name="cerrarPagina" finished-at="2022-07-02T13:31:54 UYT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarPagina -->
+      </class> <!-- pruebas.Practice6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
