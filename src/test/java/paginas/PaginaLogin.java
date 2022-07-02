@@ -13,6 +13,8 @@ public class PaginaLogin {
 	WebElement txtPassword;
 	@FindBy(id="SubmitLogin")
 	WebElement txtboton;
+	@FindBy(linkText="Sign out")
+	WebElement InkSingOut;
 
 	public PaginaLogin(WebDriver driver) {
 		PageFactory.initElements(driver, this);	
@@ -25,6 +27,9 @@ public class PaginaLogin {
 	}
 	public void clickBotonIn() {
 		txtboton.click();
+	}
+	public void HacerClickenSingOut() {
+		InkSingOut.click();
 	}
 
 }
